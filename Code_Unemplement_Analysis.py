@@ -1,3 +1,19 @@
+# Core libraries
+import pandas as pd
+import numpy as np
+
+# Visualization libraries
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Optional: Statistical analysis
+import statsmodels.api as sm
+
+# Optional: Machine Learning (अगर prediction करना हो)
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+
+
 # Load dataset (make sure Unemployment.csv is in the same folder)
 df = pd.read_csv("Unemployment.csv")
 
